@@ -1,4 +1,4 @@
-# 1475 방 번호 - <img src="https://static.solved.ac/tier_small/4.svg" style="height:20px" /> Bronze II
+# 1475 방 번호 - <img src="https://static.solved.ac/tier_small/6.svg" style="height:20px" /> Silver V
 
 
 ## 문제
