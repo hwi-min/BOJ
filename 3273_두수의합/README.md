@@ -1,4 +1,4 @@
-# 3272 두 수의 합 - <img src="https://static.solved.ac/tier_small/4.svg" style="height:20px" /> Bronze II
+# 3272 두 수의 합 - <img src="https://static.solved.ac/tier_small/9.svg" style="height:20px" /> Silver II
 
 
 ## 문제
