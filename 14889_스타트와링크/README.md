@@ -1,4 +1,4 @@
-# 14889 스타트와 링크 - <img src="https://static.solved.ac/tier_small/2.svg" style="height:20px" /> Bronze VI
+# 14889 스타트와 링크 - <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I
 
 
 ## 문제
@@ -26,13 +26,13 @@ N=4이고, S가 아래와 같은 경우를 살펴보자.
 
 ## 입력
 
+첫째 줄에 N(4 ≤ N ≤ 20, N은 짝수)이 주어진다. 둘째 줄부터 N개의 줄에 S가 주어진다. 각 줄은 N개의 수로 이루어져 있고, i번 줄의 j번째 수는 Sij 이다. Sii는 항상 0이고, 나머지 Sij는 1보다 크거나 같고, 100보다 작거나 같은 정수이다.
 
 
 ## 출력
 
-첫단어에 포함되어 있는 a의 개수, b의 개수, …, z의 개수를 공백으로 구분해서 출력한다.
-
+첫째 줄에 스타트 팀과 링크 팀의 능력치의 차이의 최솟값을 출력한다.
 
 ## 풀이
 
-[소스코드 보기](10808_sol.py)
+[소스코드 보기](14889_sol.py)
