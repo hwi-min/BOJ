@@ -1,4 +1,4 @@
-# 13300 방 배정 - <img src="https://static.solved.ac/tier_small/9.svg" style="height:20px" /> Silver II
+# 13300 방 배정 - <img src="https://static.solved.ac/tier_small/4.svg" style="height:20px" /> Bronze II
 
 
 ## 문제
