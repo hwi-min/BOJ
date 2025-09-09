@@ -1,4 +1,4 @@
-# 1158 요세푸세 문제 - <img src="https://static.solved.ac/tier_small/1.svg" style="height:20px" /> Bronze V
+# 1158 요세푸세 문제 - <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver VI
 
 
 ## 문제
