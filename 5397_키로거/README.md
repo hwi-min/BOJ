@@ -1,4 +1,4 @@
-# 5397 키로거 - <img src="https://static.solved.ac/tier_small/1.svg" style="height:20px" /> Bronze V
+# 5397 키로거 - <img src="https://static.solved.ac/tier_small/9.svg" style="height:20px" /> Silver II
 
 
 ## 문제
