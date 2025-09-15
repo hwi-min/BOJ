@@ -1,4 +1,4 @@
-# 10808 알파벳 개수 - <img src="https://static.solved.ac/tier_small/2.svg" style="height:20px" /> Bronze VI
+# 10808 알파벳 개수 - <img src="https://static.solved.ac/tier_small/2.svg" style="height:20px" /> Bronze IV
 
 
 ## 문제
