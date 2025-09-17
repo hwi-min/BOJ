@@ -1,4 +1,4 @@
-# 16236 불 <img src="https://static.solved.ac/tier_small/13.svg" style="height:20px" /> Gold III
+# 16236 불 <img src="https://static.solved.ac/tier_small/12.svg" style="height:20px" /> Gold IV
 
 
 ## 문제
