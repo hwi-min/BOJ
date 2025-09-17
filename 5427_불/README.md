@@ -1,9 +1,9 @@
-# 16236 불 <img src="https://static.solved.ac/tier_small/12.svg" style="height:20px" /> Gold IV
+# 5427 불 <img src="https://static.solved.ac/tier_small/12.svg" style="height:20px" /> Gold IV
 
 
 ## 문제
 
-[16236 불](https://www.acmicpc.net/problem/5427)
+[5427 불](https://www.acmicpc.net/problem/5427)
 상근이는 빈 공간과 벽으로 이루어진 건물에 갇혀있다. 건물의 일부에는 불이 났고, 상근이는 출구를 향해 뛰고 있다.
 
 매 초마다, 불은 동서남북 방향으로 인접한 빈 공간으로 퍼져나간다. 벽에는 불이 붙지 않는다. 상근이는 동서남북 인접한 칸으로 이동할 수 있으며, 1초가 걸린다. 상근이는 벽을 통과할 수 없고, 불이 옮겨진 칸 또는 이제 불이 붙으려는 칸으로 이동할 수 없다. 상근이가 있는 칸에 불이 옮겨옴과 동시에 다른 칸으로 이동할 수 있다.
