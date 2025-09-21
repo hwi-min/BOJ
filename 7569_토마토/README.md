@@ -1,4 +1,4 @@
-# 7569 토마토 <img src="https://static.solved.ac/tier_small/12.svg" style="height:20px" /> Gold IV
+# 7569 토마토 <img src="https://static.solved.ac/tier_small/11.svg" style="height:20px" /> Gold V
 
 
 ## 문제
