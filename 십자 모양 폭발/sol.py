@@ -21,15 +21,16 @@ for i in range(1, cnt):
 # 이제 0 제외후 떨어뜨리기
 for row in range(n-1, -1, -1): # 아래에서 역으로 탐색
     for col in range(n-1, -1, -1):
-        if grid[row][col] == 0: # 으로 터진 부분이라면
+        if grid[row][col] == 0: # 0 으로 터진 부분이라면
             zero_row, zero_col = row, col # 처리해야하는 부분을 저장함
-            while 0 <= zero_row < row: # 0인 좌표보다 위에 존재하는 동안
-                zero_row -= 1
-                upper_elem = grid[zero_row][zero_col]
+            scaned_row = row -1
+            while scaned_row >= 0: # 0인 좌표보다 위에 열부터 탐색
+                upper_elem = grid[scaned_row][col]
                 if upper_elem != 0: # 해당 좌표가 0이 아닌 경우에는
                     grid[row][col] = upper_elem
-                    grid[zero_row][zero_col] = 0
+                    grid[scaned_row][zero_col] = 0
                     break # 바꾸고 더 이상 이동할 필요 없음 !
+                scaned_row -= 1 # 0이 아니면 한 칸 더 위로 이동
 
 for row in grid:
     print(*row)
