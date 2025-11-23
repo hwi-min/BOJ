@@ -17,7 +17,6 @@ while queue:
         print(cnt)
         break
 
-    
     for puzzle in puzzles:
         next_set = current_set | puzzle # 두 set의 합집합
         frozen_next = frozenset(next_set) # 이미 왔던 길이라는 것을 알려주기 위한 visitied
