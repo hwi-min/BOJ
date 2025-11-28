@@ -1,43 +1,37 @@
+from itertools import combinations
+
 N, M = map(int, input().split())
 grid = [list(map(int, input().split())) for _ in range(N)]
 dir = [(1, 0), (-1, 0), (0, 1), (0, -1)] # 인접한 방향 탐색
 max_sum = float('-inf')
 visited = [[False] * M for _ in range(N)]
 
-def check_exception(r, c):
-    global max_sum
-    sub_sum = grid[r][c]
-    for dx, dy in dir:
-        nx, ny = r + dx, c + dy
-
-        if nx < 0 or ny < 0 or nx >= N or ny >= M:
-            return
-        
-        sub_sum += grid[nx][ny]
-
-    max_sum = max(max_sum, sub_sum)
-    
-    return
-
 # 해당 r, c를 중심 위치로 보고 수행
-def check_t(r, c):
-    global max_sum
-    
-    neighbors = []
-    for dx, dy in dir:
-        nr, nc = r + dx, c + dy
-        if 0 <= nr < N and 0 <= nc < M:
-            neighbors.append((nr, nc))
-    
-    neighbors_cnt = len(neighbors)
+# def check_exception(r, c):
+#     global max_sum
+#     central_val = grid[r][c]
 
-    # 인접한 칸이 3개 미만이면 T자 못 만듦
-    if neighbors_cnt < 3:
-        return
+#     # 1. 유효 이웃 찾기
+#     neighbors = []
+#     for dx, dy in dir:
+#         nr, nc = r + dx, c + dy
+#         if 0 <= nr < N and 0 <= nc < M:
+#             neighbors.append((nr, nc))
     
-    # 3개 이상이면
-    for i in range(neighbors_cnt):
-        if neighbors_cnt == 3 and i > 0: 
+#     neighbors_cnt = len(neighbors)
+
+#     # 인접한 칸이 3개 미만이면 T자 못 만듦
+#     if neighbors_cnt < 3:
+#         return
+    
+#     # 3개 이상이면 
+#     for three_neighbors in combinations(neighbors, 3):
+#         base_sum = central_val
+#         # T자모양 확인
+#         for nr, nc in three_neighbors:
+#             base_sum += grid[nr][nc]
+#     for i in range(neighbors_cnt):
+#         if neighbors_cnt == 3 and i > 0: 
     
 
 
@@ -67,3 +61,4 @@ for r in range(N):
         check_exception(r, c)
 
 print(max_sum)
+
