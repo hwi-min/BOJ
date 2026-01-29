@@ -1,4 +1,4 @@
-# 14500 테트로미노 - <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I
+# 14500 테트로미노 - <img src="https://static.solved.ac/tier_small/12.svg" style="height:20px" /> Gold IV
 
 
 ## 문제
@@ -14,6 +14,7 @@
 
 
 ![alt text](image.png)
+
 아름이는 크기가 N×M인 종이 위에 테트로미노 하나를 놓으려고 한다. 종이는 1×1 크기의 칸으로 나누어져 있으며, 각각의 칸에는 정수가 하나 쓰여 있다.
 
 테트로미노 하나를 적절히 놓아서 테트로미노가 놓인 칸에 쓰여 있는 수들의 합을 최대로 하는 프로그램을 작성하시오.
