@@ -3,7 +3,7 @@
 
 ## 문제
 
-[14503 로봇 청소기](https://www.acmicpc.net/problem/14500)
+[14503 로봇 청소기](https://www.acmicpc.net/problem/14503)
 
 로봇 청소기와 방의 상태가 주어졌을 때, 청소하는 영역의 개수를 구하는 프로그램을 작성하시오.
 
