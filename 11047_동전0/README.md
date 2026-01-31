@@ -1,9 +1,9 @@
-# 11047 로봇0 - <img src="https://static.solved.ac/tier_small/11.svg" style="height:20px" /> Gold V
+# 11047 동전 0 - <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV
 
 
 ## 문제
 
-[11047 로봇0](https://www.acmicpc.net/problem/11047)
+[11047 동전 0](https://www.acmicpc.net/problem/11047)
 
 준규가 가지고 있는 동전은 총 N종류이고, 각각의 동전을 매우 많이 가지고 있다.
 
